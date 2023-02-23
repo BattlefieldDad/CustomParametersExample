@@ -739,20 +739,7 @@
                                   <block type="Message">
                                     <value name="VALUE-0">
                                       <block type="Text">
-                                        <field name="TEXT">{}</field>
-                                      </block>
-                                    </value>
-                                    <value name="VALUE-1">
-                                      <block type="GetSoldierState">
-                                        <value name="VALUE-0">
-                                          <block type="EventPlayer"></block>
-                                        </value>
-                                        <value name="VALUE-1">
-                                          <block type="SoldierStateNumberItem">
-                                            <field name="VALUE-0">SoldierStateNumber</field>
-                                            <field name="VALUE-1">CurrentHealth</field>
-                                          </block>
-                                        </value>
+                                        <field name="TEXT">ELITE</field>
                                       </block>
                                     </value>
                                   </block>
@@ -1538,6 +1525,26 @@
       </block>
     </statement>
   </block>
+  <block type="Message" x="2987" y="3484">
+    <value name="VALUE-0">
+      <block type="Text">
+        <field name="TEXT">{}</field>
+      </block>
+    </value>
+    <value name="VALUE-1">
+      <block type="GetSoldierState">
+        <value name="VALUE-0">
+          <block type="EventPlayer"></block>
+        </value>
+        <value name="VALUE-1">
+          <block type="SoldierStateNumberItem">
+            <field name="VALUE-0">SoldierStateNumber</field>
+            <field name="VALUE-1">CurrentHealth</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
   <block type="subroutineBlock" deletable="false" x="-363" y="3731">
     <mutation>
       <parameter types="Enum_WorldIcons">worldIcon</parameter>
@@ -1573,5 +1580,5 @@
       </block>
     </statement>
   </block>
-  <block type="EventPlayer" x="2633" y="4138"></block>
+  <block type="EventPlayer" x="2647" y="4213"></block>
 </xml>
